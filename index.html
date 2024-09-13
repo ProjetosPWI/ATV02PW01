@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--metadados para SEO e compatibilidade-->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripition" content="Recursos em HTML5">
+    <meta name= 'author' content="João Pedro Mendes">
+    <title>Página Sobre Recursos em HTML5</title>
+</head>
+<body>
+    <!--Cabeçalho da página-->
+    <header>
+        <h1>Recursos em HTML5</h1>
+        <!--Navegação com links âncoras com diferentes seções-->
+        <nav>
+            <a href="#parágrafo">Parágrafos</a>
+            <a href="#listas">Listas</a>
+            <a href="#tabela">Tabelas</a>
+            <a href="#formulário">Formulário</a>
+            <a href="#midia">Mídia</a>
+        </nav>
+    </header>
+    <!--Primeira seção: Demonstrar parágrafos e formatação de texto-->
+    <section id="parágrafo">
+        <h2>Parágrafos e Formatação de Texto</h2>
+        <!--um parágrafo simples-->
+        <p>Este é um parágrafo básico. O elemento <code>&lt;p&gt;</code> é usado para criar parágrafos em HTML</p>
+
+        <!--Texto em negrito e itálico-->
+        <p><strong>Texto em negrito</strong> pode ser criado pela tag <code>&lt;strong&gt;</code> ou <code>&lt;b&gt;</code>.</div></p>
+        <p><em>Texto em itálico</em> pode ser criado pela tag <code>&gt;em&lt;</code> ou <code>&lt;i&gt;</code>.</p>
+
+        <!--Linha horizontal-->
+        <hr>
+        <p>Esta linha horizontal foi criada com o elemento <code>&gt;hr&lt;</code> que é para separar seções de conteúdo.</p>
+    </section>
+
+    <!--Segunda seção: Listar Ordenadads e listas não ordenadas-->
+    <section id="listas">
+        <h2>Listas</h2>
+        <!--Lista não ordenada-->
+        <h3>Lista não ordenada</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <p>A lsita acima é uma <strong>lista não ordenada</strong>, foi criada com <code>&lt;ul&gt;</code> e <code>&lt;li&gt;</code>.</p>
+
+        <!--Lista ordenada-->
+        <h3>Lista Ordenada</h3>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <p>A lsita acima é uma <strong>lista ordenada</strong>, foi criada com <code>&lt;ol&gt;</code> e <code>&lt;li&gt;</code>.</p>
+    </section>
+    
+    <!--Terceira seção: Tabela básica-->
+    <section id="tabela">
+        <table border="1">
+            <caption>Exemplo de Tabela</caption>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Profissão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>16</td>
+                    <td>Nenhuma</td>
+                </tr>
+                <tr>
+                    <td>Peça 1</td>
+                    <td>99</td>
+                    <td>Doido</td>
+                </tr>
+                <tr>
+                    <td>Peça 2</td>
+                    <td>99</td>
+                    <td>Doido</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>esta tabela foi criada com o elemento <code>&lt;table&gt;</code>. E os cabeçalhos são definidos como <code>&lt;th&gt;</code> e as células como <code>&lt;td&gt;</code>.</p>
+    </section>
+
+
+    <section id="formulário">
+        <h2>Formulário</h2>
+        <form action="#" method="post">
+            <!--Campo de texto-->
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome"><br><br>
+            
+            <!--Campo de e-mail-->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <!--Caixa de seleção (checkbox)-->
+            <label for="aceito">Aceito os termos:</label>
+            <input type="checkbox" id="aceito" name="aceito">
+
+            <!--Botão de envio-->
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Este formulário contém diferentes tipos de entradas de dados, como <code>&lt;input&gt;</code> e <code>&lt;label&gt;</code>.</p>
+    </section>
+
+    <!--Quinta Seção: Mídias (Imagem e Vídeo)-->
+    <section id="midia">
+        <h2>Mídia</h2>
+        <!--Imagem-->
+        <h3>Imagem</h3>
+        <img src="https://th.bing.com/th/id/OIP.ozB83q72AvMYEId2XnWtgAHaFj?rs=1&pid=ImgDetMain" alt="Exemplo de imagem">
+    <p>Esta imagem é inserida com o elemento <code>&lt;img&gt;</code>, que requer o atributo <code>src</code> para o caminho das imagens e <code>alt</code> para descrição alternativa.</p>
+
+        <!--Vídeo-->
+        <h3>Vídeo</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MmB9b5njVbA?si=lq0tbU4lr-l7WXqj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <video controls width="250">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <p>O vídeo acima é incorporado pelo elemento <code>&lt;video&gt;</code> e a fonte de vídeo é definida com <code>&lt;source&gt;</code>.</p>
+        
+    </section>
+
+    <!--Rodapé da Página-->
+    <footer>
+        <p>&copy; 2024 - Desenvolvido por João Pedro Gomes De Souza Soares</p>
+    </footer>
+</body>
+</html>

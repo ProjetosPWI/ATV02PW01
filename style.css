@@ -1,0 +1,152 @@
+body{
+    background-color: beige;
+}
+header{
+    background-color: rgb(64, 73, 201);
+    position: fixed;
+    left: 41%;
+    border: 2px;
+    border-radius: 14px;
+
+}
+#header, h1{
+    text-align: center;
+    border:  2px;
+    border-width: 1px;
+    background-color: rgb(103, 143, 216);
+    
+}
+
+nav{
+    text-align: center;
+    padding-bottom: 20px
+}
+
+a{
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(103, 143, 216);
+    border: solid black;
+    border-radius: 5px;
+    border-width: 1px;
+}
+a:hover{
+    background: rgb(107, 107, 184);
+}
+#parágrafo{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#listas, li{
+    text-align: center;
+    list-style-position:inside
+}
+#listas{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+#tabela, table{
+    background-color: aliceblue;
+    border: solid 1px;
+    margin:auto;
+    width: 70%;
+}
+
+#tabela, caption{
+    font-size: large;
+    font-weight: bolder;
+    font-style: oblique;
+    padding-bottom: 30px;
+}
+#tabela{
+    background-color: rgb(255, 255, 255);
+}
+#tabela thead{
+    color: blue
+
+}
+#tabela p{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#tabela{
+    background-image: url(https://i0.wp.com/multarte.com.br/wp-content/uploads/2019/01/ceu-azul-nuvens.jpg?fit=3072%2C2304&ssl=1);
+}
+
+#formulário h2{
+    background-color: rgb(101, 187, 187);
+}
+#formulário {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#formulário label{
+    text-align: center;
+    border-radius: 10px;
+    border: solid 1px;
+    background-color: rgb(101, 187, 187);
+}
+
+#formulário form{
+    padding-top: 30px;
+}
+#midia{
+    text-align: center;
+}
+
+#midia h2{
+    background-color: rgb(101, 187, 187);
+}
+
+#midia h3{
+    padding-top: 15px;
+    padding-bottom: 24px;
+}
+
+#midia video{
+    position: relative;
+    max-width: 20%;
+    width: 20%;
+    bottom: 40px;
+    width: 30%;
+}
+
+#midia iframe{
+    position: relative;
+    max-width: 20%;
+    width: 20;
+    max-height: fit-content;
+    bottom: 23px;
+    right: 70px;
+}
+
+#midia img{
+    max-width: 40%;
+    width: 40%;
+    position: relative;
+    top: 1%;
+    left: 10px;
+    border: solid 2px;
+    border-radius: 12px;
+}
+#midia p{
+    text-align: center;
+}
+
+footer{
+    background-color:rgb(101, 187, 187);
+    text-align: center;
+}
